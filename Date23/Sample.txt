@@ -1,0 +1,3 @@
+Welcome to java program 
+Hello from file
+This is sample file
