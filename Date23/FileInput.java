@@ -4,7 +4,7 @@ public class FileInput{
     public static void main(String args[]){
         File file = new File("Sample.txt");//same folder not need full path
         try{
-            Scanner sc = new Scanner(file);//scanner only able to read not write
+            Scanner sc = new Scanner(file);//scanner only able to support reader not write
             Integer lc=0;
             Integer wc=0;
             Integer cc=0;
