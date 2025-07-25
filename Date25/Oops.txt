@@ -1,0 +1,21 @@
+OOps concepts:
+1)Class -->imaginary part
+2)Object -->obj always map to real time entity,name must be meaningful
+    eg.Student s1=new Student(1,'df',89);
+    -->Student is a type of s1 (data type)
+    ->new creates a memory for constructor , has starting address,stored in referenvce variable
+3)constructor
+    -->by default jvm creates the constructor
+    -->cannot be static and final;
+    -->only be public,private(),protected
+            -->private error be:error: constructor A in class A cannot be applied to given types;B(Integer num1){
+            -->if i give default constructor error will gone
+    -->when i have super keyword it create obj for A and then for B
+    -->super() is seen 1st inside the constructor
+4)abstraction
+5)encapsulation
+6)inheritance
+7)polymorphism
+8)association
+9)aggregation
+10)composition
