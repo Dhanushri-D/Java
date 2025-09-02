@@ -1,0 +1,46 @@
+1).Static keyword
+    -->used to accsess main without object (ie : without memory);
+    -->without creating object static will work
+    -->long term memory (areated inside class area in jvm before creating object)
+    -->used by any function
+Where static can be used:
+    a).variable
+    b).methods
+        -->without creating object we can access methods with ststic keyword
+        -->when we call static variable inside static and non static method menans no error or problem
+        -->a non static variable cannot be accessed inside static function
+    c).class
+    d).block {//inisde these are block}
+        -->used to open connection****
+        -->always exected 1st
+        -->used when we need connection before running
+
+
+
+Extend keyword:-->a variable get value from another function,get initialised by value from anthor variable
+register:has reference of all operation which are to be done in another memory
+cache/buffer:store frquently used object , to access application faster
+stack:main memory is created inside this stack , for all methods memory is created,all process takes plac
+heap:long term memory , to create memory use "static" keyword,new keyword
+
+
+
+2)Final keyword
+    -->used to close connection
+    -->act as constant keyword
+-->used before:
+    a)class
+        -->all wrapper class are final class
+        -->once class is declared as finally it cannot be extended
+        -->a class cannot be abstract and finall (connot go along)
+    b)method
+        -->cannot be overrided
+    c)variable
+        -->if variable is created with finall keyword it cannot be reinitialized
+        example:    
+            class welcome{
+                finall Integer num1=10;
+                public void method(){
+                    num1=80;//errror because cannot be reinitialized
+                }
+            }

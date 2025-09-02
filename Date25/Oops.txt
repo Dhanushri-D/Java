@@ -4,6 +4,7 @@ OOps concepts:
     eg.Student s1=new Student(1,'df',89);
     -->Student is a type of s1 (data type)
     ->new creates a memory for constructor , has starting address,stored in referenvce variable
+    -->what is use of memory? to store data then to accsess
 3)constructor
     -->by default jvm creates the constructor
     -->cannot be static and final;
@@ -15,7 +16,9 @@ OOps concepts:
 4)abstraction
 5)encapsulation
 6)inheritance
+    -->a class has its own properties also has extended properties
 7)polymorphism
+    -->many forms
 8)association
 9)aggregation
 10)composition

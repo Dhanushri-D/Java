@@ -1,0 +1,44 @@
+---JAVA PROJECT---
+example project->Attendance management system:
+1)track attendance
+2)students attendance
+3)track by faculty
+4)daily faculty will take attendance
+5)status present , absent , od , leave , late
+6)report absentees count
+7)on duty count
+8)present count
+
+Actors: ->1)students,2)faculty,3)admin
+Student->view attendance
+faculty->mark attendance
+admin->assign faculty / students
+
+CLASS:
+User class:
+    id->integer - primary key/unique/used for indexing
+    username->string
+    rollno->string
+    user_type->id foreign key/object compositions->strongly bound (without user_type user cannot exsist)
+
+User_type class:
+    id->integer / primary key
+    type->string / tells that it is students or faculty or admin
+
+Attendance class:
+    student_id -> 
+    student_id -> user_id(student)/foreign key
+    faculty_id -> user_id(faculty)
+    status -> Attendance_type
+
+Attendance_type class:
+    id -> integer
+    type -> present,absent,od,leave,late
+
+
+lucid diagram->usecase diagram,interaction diagram
+blueJ-->also gives class diagram
+curser ide app --> ai tool, fok of vs code/open source market place
+chromium->open source of chromium 
+solidity-->plug in/language/ similar to java/available in cursur
+endidesk -> remote desktop
